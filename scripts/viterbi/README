@@ -1,0 +1,10 @@
+#awk scripts to calculate the optimal Viterbi path for a toy 2 state HMM defined as in the scripts.
+
+#viterbi.awk
+#Only prints the optimal path and the corresponding tables
+printf "Y\nY\nX\nX\nY\n" | awk -f viterbi.awk
+
+#viterbi_debug.awk
+#Prints all calculations
+printf "Y\nY\nX\nX\nY\n" | awk -f viterbi_debug.awk
+
